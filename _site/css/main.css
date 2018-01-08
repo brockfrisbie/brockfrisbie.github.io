@@ -63,7 +63,7 @@ a img {
 
 .header-logo {
   float: left;
-  padding: 3vh 0 2vh 15vh;
+  padding: 3vh 0 2vh 5%;
 }
 
 .header-logo > li {
@@ -83,7 +83,7 @@ a img {
 
 .header-nav {
   float: right;
-  padding: 4vh 15vh 4vh 0;
+  padding: 4vh 5% 4vh 0;
 }
 
 .header-nav > li {
@@ -114,14 +114,14 @@ a img {
   padding-bottom: 20vh;
   padding-top: 20vh;
   text-align: justify;
-  width: calc(100vw - 15vh - 15vh);
-  width: -webkit-calc(100vw - 15vh - 15vh);
+  width: calc(100vw - 5% - 5%);
+  width: -webkit-calc(100vw - 5% - 5%);
 }
 
 .img-responsive {
   max-width: 950px;
-  width: calc(100vw - 15vh - 15vh);
-  width: -webkit-calc(100vw - 15vh - 15vh);
+  width: calc(100vw - 5% - 5%);
+  width: -webkit-calc(100vw - 5% - 5%);
 }
 
 
@@ -138,7 +138,7 @@ a img {
 
 .footer-left {
   float: left;
-  padding: 3vh 0 2vh 15vh;
+  padding: 3vh 0 2vh 5%;
 }
 
 .footer-left > li {
@@ -159,7 +159,7 @@ a img {
 
 .footer-right {
   float: right;
-  padding: 3vh 15vh 2vh 0;
+  padding: 3vh 5% 2vh 0;
 }
 
 .footer-right > li {
