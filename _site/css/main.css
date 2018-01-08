@@ -1,0 +1,241 @@
+/* ------------------------------- CSS RESET ------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  min-height: 100vh;
+  font-family: helvetica, arial, sans;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong, b {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+a img {
+  border: none;
+}
+/* ------------------------------- END RESET ------------------------------- */
+
+/* --------------------------------- HEADER -------------------------------- */
+
+.header {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+
+.header-logo {
+  float: left;
+  padding: 3vh 0 2vh 15vh;
+}
+
+.header-logo > li {
+  display: inline-block;
+}
+
+.header-logo a {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.header-logo a:hover,
+.header-logo a:active {
+  color: #ed6e2f;
+}
+
+.header-nav {
+  float: right;
+  padding: 4vh 15vh 4vh 0;
+}
+
+.header-nav > li {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.header-nav a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.header-nav a:hover,
+.header-nav a:active {
+  color: #ed6e2f;
+}
+
+
+/* -------------------------------- CONTENT -------------------------------- */
+
+.content-container {
+  flex-grow: 1;
+  margin: auto;
+  max-width: 950px;
+  max-width: 950px;
+  padding-bottom: 20vh;
+  padding-top: 20vh;
+  text-align: justify;
+  width: calc(100vw - 15vh - 15vh);
+  width: -webkit-calc(100vw - 15vh - 15vh);
+}
+
+.img-responsive {
+  max-width: 950px;
+  width: calc(100vw - 15vh - 15vh);
+  width: -webkit-calc(100vw - 15vh - 15vh);
+}
+
+
+/* -------------------------------- FOOTER -------------------------------- */
+
+.footer {
+  background-color: #000;
+  bottom: 0px;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+
+.footer-left {
+  float: left;
+  padding: 3vh 0 2vh 15vh;
+}
+
+.footer-left > li {
+  display: inline-block;
+}
+
+.footer-left a {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.footer-left a:hover,
+.footer-left a:active {
+  color: #ed6e2f;
+}
+
+.footer-right {
+  float: right;
+  padding: 3vh 15vh 2vh 0;
+}
+
+.footer-right > li {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.footer-right a {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.footer-right a:hover,
+.footer-right a:active {
+  color: #ed6e2f;
+}
+
+
+/* -------------------------------- HOME PAGE -------------------------------- */
+
+.blog-recent h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid black;
+}
+
+.blog-recent h3 {
+  font-size: 1.5rem;
+}
+
+.blog-recent h3 a {
+  color: #777;
+  text-decoration: none;
+}
+
+.blog-recent h3 a:hover,
+.blog-recent h3 a:active {
+  color: #edb07b;
+}
+
+.blog-title-list li {
+  list-style-type: none;
+  margin: 2em 0 2em 2em;
+}
+
+.blog-title-list a {
+  color: #888;
+  text-decoration: none;
+}
+
+.blog-title-list span {
+  color: #999;
+  font-size: 0.75rem;
+  line-height: 2rem;
+}
+
+
+/* ------------------------------- POST PAGE ------------------------------- */
+
+
+
+.post h1 {
+  font-size: 2rem;
+}
+
+.post h2 {
+  color: #999;
+  font-size: 0.75rem;
+  line-height: 2rem;
+}
+
+
+/* ------------------------------- ABOUT PAGE ------------------------------ */
+
+.about-page h1 {
+  border-bottom: 2px solid black;
+  font-size: 2rem;
+}
