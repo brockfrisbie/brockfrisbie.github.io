@@ -63,7 +63,7 @@ a img {
 
 .header-logo {
   float: left;
-  padding: 3vh 0 2vh 5%;
+  padding: 1vh 0 1vh 5%;
 }
 
 .header-logo > li {
@@ -83,7 +83,7 @@ a img {
 
 .header-nav {
   float: right;
-  padding: 4vh 5% 4vh 0;
+  padding: 1.5vh 5%;
 }
 
 .header-nav > li {
@@ -111,7 +111,7 @@ a img {
   margin: auto;
   max-width: 950px;
   max-width: 950px;
-  padding-bottom: 20vh;
+  padding-bottom: 10vh;
   padding-top: 20vh;
   text-align: justify;
   width: calc(100vw - 5% - 5%);
@@ -131,14 +131,14 @@ a img {
   background-color: #000;
   bottom: 0px;
   color: #fff;
-  position: fixed;
+  position: relative;
   width: 100%;
   z-index: 20;
 }
 
 .footer-left {
   float: left;
-  padding: 3vh 0 2vh 5%;
+  padding: 1.5vh 0 1.5vh 5%;
 }
 
 .footer-left > li {
@@ -159,7 +159,7 @@ a img {
 
 .footer-right {
   float: right;
-  padding: 3vh 5% 2vh 0;
+  padding: 1.5vh 5% 1.5vh 0;
 }
 
 .footer-right > li {
