@@ -1,11 +1,13 @@
 a {
-    color: blue; /* Classic blue */
+    color: black; 
+    text-decoration: none; /* No underline */
     
 }
 
 /* Hover effect */
 a:hover {
-    color: darkblue;
+    color: darkgray;
+    text-decoration: none; /* No underline */
     
 }
     
