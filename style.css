@@ -6,13 +6,13 @@ body {
     text-align: left;
     }
     header {
-    padding: 20px 0;
+    padding: 20px;
     }
     section {
     padding: 20px;
     }
     footer {
-    padding: 10px 0;
+    padding: 20px
     position: fixed;
     bottom: 0;
     width: 100%;
