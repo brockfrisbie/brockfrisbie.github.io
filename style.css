@@ -1,3 +1,14 @@
+a {
+    color: blue; /* Classic blue */
+    
+}
+
+/* Hover effect */
+a:hover {
+    color: darkblue;
+    
+}
+    
 body {
     font-family: Anonymous Pro, monospace;
     color: #333;
