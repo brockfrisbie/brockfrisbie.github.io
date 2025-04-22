@@ -21,11 +21,19 @@ header {
     font-size: 20px;
     font-weight: bold;
     padding: 20px;
-    }
+}
+
+p {
+    color: darkgray;
+}
 
 section {
     padding: 30px;
-    }
+}
+
+content {
+    padding: 10px;
+}
 
 footer {
     text-align: center;
@@ -33,4 +41,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    }
+}
